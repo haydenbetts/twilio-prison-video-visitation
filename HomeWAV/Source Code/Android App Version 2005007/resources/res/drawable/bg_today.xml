@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:maxLevel="0">
+        <shape android:shape="oval">
+            <size android:height="25dp" android:width="25dp"/>
+            <stroke android:width="2dp" android:color="#666666"/>
+        </shape>
+    </item>
+    <item android:maxLevel="1">
+        <shape android:shape="oval">
+            <size android:height="25dp" android:width="25dp"/>
+            <stroke android:width="2dp" android:color="#fff"/>
+        </shape>
+    </item>
+</level-list>

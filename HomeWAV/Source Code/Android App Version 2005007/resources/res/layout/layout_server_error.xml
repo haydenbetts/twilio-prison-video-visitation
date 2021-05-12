@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:background="@color/white" android:paddingLeft="12dp" android:paddingTop="@dimen/wide_offset" android:paddingRight="12dp" android:paddingBottom="@dimen/wide_offset" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/wide_offset" android:layout_marginRight="@dimen/wide_offset">
+        <ImageView android:layout_gravity="top" android:layout_width="@dimen/very_wide_offset" android:layout_height="@dimen/very_wide_offset" android:tint="@color/colorAccent" app:srcCompat="@drawable/ic_error"/>
+        <TextView android:textColor="#666666" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/tv_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/service_unavailable" android:lineSpacingMultiplier="1.38" android:fontFamily="@font/gotham_medium" android:layout_marginStart="@dimen/base_offset" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/TextBody"/>
+    </LinearLayout>
+</FrameLayout>

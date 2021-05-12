@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">rītdien</item>
+        <item quantity="other">pēc %d dienas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">pēc 1 stundas</item>
+        <item quantity="other">pēc %d stundas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">pēc 1 min</item>
+        <item quantity="other">pēc %d minūtes(-ēm)</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">pēc 1 s</item>
+        <item quantity="other">pēc %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">vakar</item>
+        <item quantity="other">Pirms %d dienas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">Pirms 1 stundas</item>
+        <item quantity="other">Pirms %d stundas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">Pirms 1 min</item>
+        <item quantity="other">Pirms %d min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">Pirms 1 sekundes</item>
+        <item quantity="other">Pirms %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 stunda</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">rītdien</item>
+        <item quantity="other">pēc %d dienas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">pēc 1 stundas</item>
+        <item quantity="other">pēc %d stundas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">pēc 1 minūtes</item>
+        <item quantity="other">pēc %d minūtes(-ēm)</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">pēc 1 sekundes</item>
+        <item quantity="other">pēc %d sekundes(-ēm)</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">vakar</item>
+        <item quantity="other">Pirms %d dienas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">Pirms 1 stundas</item>
+        <item quantity="other">Pirms %d stundas(-ām)</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">Pirms 1 minūtes</item>
+        <item quantity="other">Pirms %d minūtes(-ēm)</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">Pirms 1 sekundes</item>
+        <item quantity="other">Pirms %d sekundes(-ēm)</item>
+    </plurals>
+</resources>

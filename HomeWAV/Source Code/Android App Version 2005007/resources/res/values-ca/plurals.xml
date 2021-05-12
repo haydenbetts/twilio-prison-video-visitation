@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">demà</item>
+        <item quantity="other">d&apos;aquí a %d dies</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">d&apos;aquí a 1 hora</item>
+        <item quantity="other">d&apos;aquí a %d hores</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">d&apos;aquí a 1 min</item>
+        <item quantity="other">d&apos;aquí a %d minuts</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">d&apos;aquí a 1 s</item>
+        <item quantity="other">d&apos;aquí a %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">ahir</item>
+        <item quantity="other">Fa %d dies</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">Fa 1 hora</item>
+        <item quantity="other">Fa %d hores</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">fa 1 min</item>
+        <item quantity="other">Fa %d min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">Fa 1 s</item>
+        <item quantity="other">Fa %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 hora</item>
+        <item quantity="other">%d hores</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other">%d minuts</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 segon</item>
+        <item quantity="other">%d segons</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">demà</item>
+        <item quantity="other">d&apos;aquí a %d dies</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">d&apos;aquí a 1 hora</item>
+        <item quantity="other">d&apos;aquí a %d hores</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">d&apos;aquí a 1 minut</item>
+        <item quantity="other">d&apos;aquí a %d minuts</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">d&apos;aquí a 1 segon</item>
+        <item quantity="other">d&apos;aquí a %d segons</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">Ahir</item>
+        <item quantity="other">Fa %d dies</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">Fa 1 hora</item>
+        <item quantity="other">Fa %d hores</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">Fa 1 minut</item>
+        <item quantity="other">Fa %d minuts</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">Fa 1 segon</item>
+        <item quantity="other">Fa %d segons</item>
+    </plurals>
+</resources>

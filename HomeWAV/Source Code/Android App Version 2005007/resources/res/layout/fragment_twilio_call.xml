@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:keepScreenOn="true">
+    <include layout="@layout/call_background"/>
+    <com.twilio.video.VideoTextureView android:id="@+id/inmate_video_view" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintLeft_toLeftOf="0" app:layout_constraintRight_toRightOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.twilio.video.VideoTextureView android:id="@+id/visitor_video_view" android:layout_width="100dp" android:layout_height="134dp" android:layout_marginTop="@dimen/base_offset" android:layout_marginEnd="@dimen/base_offset" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <include layout="@layout/call_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

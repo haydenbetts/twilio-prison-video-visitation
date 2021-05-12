@@ -1,0 +1,81 @@
+package com.twilio.video;
+
+public class AudioOptions {
+    public final boolean audioJitterBufferFastAccelerate;
+    public final boolean autoGainControl;
+    public final boolean echoCancellation;
+    public final boolean highpassFilter;
+    public final boolean noiseSuppression;
+    public final boolean stereoSwapping;
+    public final boolean typingDetection;
+
+    private AudioOptions(Builder builder) {
+        this.echoCancellation = builder.echoCancellation;
+        this.autoGainControl = builder.autoGainControl;
+        this.noiseSuppression = builder.noiseSuppression;
+        this.highpassFilter = builder.highpassFilter;
+        this.stereoSwapping = builder.stereoSwapping;
+        this.audioJitterBufferFastAccelerate = builder.audioJitterBufferFastAccelerate;
+        this.typingDetection = builder.typingDetection;
+    }
+
+    public String toString() {
+        return "AudioOptions{echoCancellation=" + this.echoCancellation + ", autoGainControl=" + this.autoGainControl + ", noiseSuppression=" + this.noiseSuppression + ", highpassFilter=" + this.highpassFilter + ", stereoSwapping=" + this.stereoSwapping + ", audioJitterBufferFastAccelerate=" + this.audioJitterBufferFastAccelerate + ", typingDetection=" + this.typingDetection + '}';
+    }
+
+    public static final class Builder {
+        /* access modifiers changed from: private */
+        public boolean audioJitterBufferFastAccelerate;
+        /* access modifiers changed from: private */
+        public boolean autoGainControl;
+        /* access modifiers changed from: private */
+        public boolean echoCancellation;
+        /* access modifiers changed from: private */
+        public boolean highpassFilter;
+        /* access modifiers changed from: private */
+        public boolean noiseSuppression;
+        /* access modifiers changed from: private */
+        public boolean stereoSwapping;
+        /* access modifiers changed from: private */
+        public boolean typingDetection;
+
+        public Builder echoCancellation(boolean z) {
+            this.echoCancellation = z;
+            return this;
+        }
+
+        public Builder autoGainControl(boolean z) {
+            this.autoGainControl = z;
+            return this;
+        }
+
+        public Builder noiseSuppression(boolean z) {
+            this.noiseSuppression = z;
+            return this;
+        }
+
+        public Builder highpassFilter(boolean z) {
+            this.highpassFilter = z;
+            return this;
+        }
+
+        public Builder stereoSwapping(boolean z) {
+            this.stereoSwapping = z;
+            return this;
+        }
+
+        public Builder audioJitterBufferFastAccelerate(boolean z) {
+            this.audioJitterBufferFastAccelerate = z;
+            return this;
+        }
+
+        public Builder typingDetection(boolean z) {
+            this.typingDetection = z;
+            return this;
+        }
+
+        public AudioOptions build() {
+            return new AudioOptions(this);
+        }
+    }
+}

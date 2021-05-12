@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="swipe_hint_bottom">12dp</dimen>
+    <dimen name="swipe_hint_image_size">40dp</dimen>
+    <dimen name="swipe_hint_margin_bottom">20dp</dimen>
+</resources>

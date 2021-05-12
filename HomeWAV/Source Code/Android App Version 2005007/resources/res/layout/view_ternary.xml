@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:background="@drawable/background_border" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/image" android:layout_width="28dp" android:layout_height="28dp" app:layout_constraintBottom_toTopOf="@+id/caption" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="2" app:srcCompat="@drawable/icon_assignment"/>
+    <TextView android:id="@+id/caption" app:layout_constraintBottom_toTopOf="@+id/text" app:layout_constraintEnd_toEndOf="@+id/text" app:layout_constraintStart_toStartOf="@+id/text" app:layout_constraintTop_toBottomOf="@+id/image" style="@style/TextView.History.Amount"/>
+    <TextView android:id="@+id/text" android:text="@string/label_activities" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/caption" style="@style/TextView.History"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

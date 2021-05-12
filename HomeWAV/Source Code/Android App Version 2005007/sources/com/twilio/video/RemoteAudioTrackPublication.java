@@ -1,0 +1,59 @@
+package com.twilio.video;
+
+public class RemoteAudioTrackPublication implements AudioTrackPublication {
+    private boolean enabled;
+    private final String name;
+    private RemoteAudioTrack remoteAudioTrack;
+    private final String sid;
+    private boolean subscribed;
+
+    RemoteAudioTrackPublication(boolean z, boolean z2, String str, String str2) {
+        this.subscribed = z;
+        this.sid = str;
+        this.name = str2;
+        this.enabled = z2;
+    }
+
+    public String getTrackSid() {
+        return this.sid;
+    }
+
+    public synchronized AudioTrack getAudioTrack() {
+        return this.remoteAudioTrack;
+    }
+
+    public String getTrackName() {
+        return this.name;
+    }
+
+    public synchronized boolean isTrackEnabled() {
+        return this.enabled;
+    }
+
+    public synchronized boolean isTrackSubscribed() {
+        return this.subscribed;
+    }
+
+    public synchronized RemoteAudioTrack getRemoteAudioTrack() {
+        return this.remoteAudioTrack;
+    }
+
+    /* access modifiers changed from: package-private */
+    public synchronized void setSubscribed(boolean z) {
+        this.subscribed = z;
+    }
+
+    /* access modifiers changed from: package-private */
+    public synchronized void setEnabled(boolean z) {
+        this.enabled = z;
+        RemoteAudioTrack remoteAudioTrack2 = this.remoteAudioTrack;
+        if (remoteAudioTrack2 != null) {
+            remoteAudioTrack2.setEnabled(z);
+        }
+    }
+
+    /* access modifiers changed from: package-private */
+    public synchronized void setRemoteAudioTrack(RemoteAudioTrack remoteAudioTrack2) {
+        this.remoteAudioTrack = remoteAudioTrack2;
+    }
+}

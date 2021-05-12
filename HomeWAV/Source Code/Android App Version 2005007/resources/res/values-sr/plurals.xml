@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">сутра</item>
+        <item quantity="other">за %d дана</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">за 1 сат</item>
+        <item quantity="other">за %d сата(и)</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">за 1 мин</item>
+        <item quantity="other">за %d мин</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">за 1 сек</item>
+        <item quantity="other">за %d сек</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">јуче</item>
+        <item quantity="other">пре %d дана</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">Пре сат времена</item>
+        <item quantity="other">пре %d сата(и)</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">Пре један мин</item>
+        <item quantity="other">пре %d мин</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">Пре једне сек</item>
+        <item quantity="other">пре %d сек</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 сат</item>
+        <item quantity="other">Сати: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 минут</item>
+        <item quantity="other">%d минута</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 секунда</item>
+        <item quantity="other">Секунди: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">сутра</item>
+        <item quantity="other">за %d дана</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">за 1 сат</item>
+        <item quantity="other">за %d сата(и)</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">за 1 минут</item>
+        <item quantity="other">за %d минута</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">за 1 секунду</item>
+        <item quantity="other">за %d секунде(и)</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">јуче</item>
+        <item quantity="other">пре %d дана</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">Пре сат времена</item>
+        <item quantity="other">пре %d сата(и)</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">Пре једног минута</item>
+        <item quantity="other">пре %d минута</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">Пре 1 секунде</item>
+        <item quantity="other">пре %d секунде(и)</item>
+    </plurals>
+</resources>

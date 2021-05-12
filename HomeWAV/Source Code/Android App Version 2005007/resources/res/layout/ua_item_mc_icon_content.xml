@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/Widget.UrbanAirship.MessageCenter.Item.Container">
+    <ImageView android:id="@+id/image" style="@style/Widget.UrbanAirship.MessageCenter.Item.Icon"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/title" style="@style/Widget.UrbanAirship.MessageCenter.Item.Title"/>
+        <TextView android:id="@+id/date" style="@style/Widget.UrbanAirship.MessageCenter.Item.Date"/>
+    </LinearLayout>
+</LinearLayout>

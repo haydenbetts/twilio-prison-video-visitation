@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="106dp" android:foreground="#16000000" android:scaleType="centerCrop"/>
+    <ImageView android:layout_gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:tint="@color/white" app:srcCompat="@drawable/ic_play"/>
+    <RadioButton android:theme="@style/SwitchStyleWhite" android:layout_gravity="end" android:id="@+id/radioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginEnd="8dp"/>
+</FrameLayout>

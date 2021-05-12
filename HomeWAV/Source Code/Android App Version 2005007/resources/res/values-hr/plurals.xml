@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">sutra</item>
+        <item quantity="other">za sljedeći broj dana: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">za 1 sat</item>
+        <item quantity="other">za sljedeći broj sati: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">za 1 min</item>
+        <item quantity="other">za %d min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">za 1 s</item>
+        <item quantity="other">za %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">jučer</item>
+        <item quantity="other">Prije %d dana</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">Prije 1 sat</item>
+        <item quantity="other">Prije %d h</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">Prije 1 min</item>
+        <item quantity="other">Prije %d min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">Prije 1 s</item>
+        <item quantity="other">Prije %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 sat</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 s</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">sutra</item>
+        <item quantity="other">za sljedeći broj dana: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">za 1 sat</item>
+        <item quantity="other">za %d h</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">za 1 minutu</item>
+        <item quantity="other">za sljedeći broj minuta: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">za 1 sekundu</item>
+        <item quantity="other">za %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">jučer</item>
+        <item quantity="other">Prije %d dana</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">Prije 1 sata</item>
+        <item quantity="other">Prije %d h</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">prije 1 minutu</item>
+        <item quantity="other">Prije %d min</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">Prije 1 sekundu</item>
+        <item quantity="other">prije %d s</item>
+    </plurals>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">غدًا</item>
+        <item quantity="other">في %d يوم</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">في ساعة واحدة</item>
+        <item quantity="other">في %d ساعة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">في دقيقة واحدة</item>
+        <item quantity="other">في %d دقيقة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">في ثانية واحدة</item>
+        <item quantity="other">في %d ثانية</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">أمس</item>
+        <item quantity="other">قبل %d يوم</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">قبل ساعة واحدة</item>
+        <item quantity="other">قبل %d ساعة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">قبل دقيقة واحدة</item>
+        <item quantity="other">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">قبل ثانية واحدة</item>
+        <item quantity="other">قبل %d ثانية</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="other">%d من الساعات</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">دقيقة واحدة</item>
+        <item quantity="other">%d من الدقائق</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">ثانية واحدة</item>
+        <item quantity="other">%d من الثواني</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">غدًا</item>
+        <item quantity="other">في %d يوم</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">في ساعة واحدة</item>
+        <item quantity="other">في %d ساعة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">في دقيقة واحدة</item>
+        <item quantity="other">في %d دقيقة</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">في ثانية واحدة</item>
+        <item quantity="other">في %d ثانية</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">أمس</item>
+        <item quantity="other">قبل %d يوم</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">قبل ساعة واحدة</item>
+        <item quantity="other">قبل %d ساعة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">قبل دقيقة واحدة</item>
+        <item quantity="other">قبل %d دقيقة</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">قبل ثانية واحدة</item>
+        <item quantity="other">قبل %d ثانية</item>
+    </plurals>
+    <plurals name="ua_selected_count">
+        <item quantity="zero">تم تحديد %1$d</item>
+        <item quantity="one">تم تحديد %1$d</item>
+        <item quantity="two">تم تحديد %1$d</item>
+        <item quantity="few">تم تحديد %1$d</item>
+        <item quantity="many">تم تحديد %1$d</item>
+        <item quantity="other">تم تحديد %1$d</item>
+    </plurals>
+</resources>

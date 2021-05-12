@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">rytoj</item>
+        <item quantity="other">po %d d.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">po 1 val.</item>
+        <item quantity="other">po %d val.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">po 1 min.</item>
+        <item quantity="other">po %d min.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">po 1 sek.</item>
+        <item quantity="other">po %d sek.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">vakar</item>
+        <item quantity="other">Prieš %d d.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d val.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">Prieš 1 min.</item>
+        <item quantity="other">Prieš %d min.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">Prieš 1 sek.</item>
+        <item quantity="other">Prieš %d sek.</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 val.</item>
+        <item quantity="other">%d val.</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 min.</item>
+        <item quantity="other">%d min.</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 sek.</item>
+        <item quantity="other">%d sek.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">rytoj</item>
+        <item quantity="other">po %d d.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">po 1 val.</item>
+        <item quantity="other">po %d val.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">po 1 min.</item>
+        <item quantity="other">po %d min.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">po 1 sek.</item>
+        <item quantity="other">po %d sek.</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">vakar</item>
+        <item quantity="other">Prieš %d d.</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">Prieš 1 valandą</item>
+        <item quantity="other">Prieš %d val.</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">Prieš 1 minutę</item>
+        <item quantity="other">Prieš %d min.</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">Prieš 1 sek.</item>
+        <item quantity="other">Prieš %d sek.</item>
+    </plurals>
+</resources>

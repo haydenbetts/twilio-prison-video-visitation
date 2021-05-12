@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">jutro</item>
+        <item quantity="other">za %d dni</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">za godzinę</item>
+        <item quantity="other">za %d godz.</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">za minutę</item>
+        <item quantity="other">za %d min</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">za sekundę</item>
+        <item quantity="other">za %d s</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">wczoraj</item>
+        <item quantity="other">%d dni temu</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">godzinę temu</item>
+        <item quantity="other">%d godz. temu</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">minutę temu</item>
+        <item quantity="other">%d min temu</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">sekundę temu</item>
+        <item quantity="other">%d s temu</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 godzina</item>
+        <item quantity="other">%d godz.</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 minuta</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 sekunda</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">jutro</item>
+        <item quantity="other">za %d dni</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">za godzinę</item>
+        <item quantity="other">za %d godzin</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">za minutę</item>
+        <item quantity="other">za %d min.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">za sekundę</item>
+        <item quantity="other">za %d sek.</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">wczoraj</item>
+        <item quantity="other">%d dni temu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">godzinę temu</item>
+        <item quantity="other">%d godzin temu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">1 minutę temu</item>
+        <item quantity="other">%d min. temu</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">sekundę temu</item>
+        <item quantity="other">%d sek. temu</item>
+    </plurals>
+    <plurals name="ua_selected_count">
+        <item quantity="one">Wybrano: %1$d</item>
+        <item quantity="few">Wybrano: %1$d</item>
+        <item quantity="many">Wybrano: %1$d</item>
+        <item quantity="other">Wybrano: %1$d</item>
+    </plurals>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">kesho</item>
+        <item quantity="other">kati ya siku %d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">kati ya saa 1</item>
+        <item quantity="other">katika saa %d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">baada ya dakika 1</item>
+        <item quantity="other">kati ya dakika%d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">kati ya sekunde 1</item>
+        <item quantity="other">kati ya sekunde %d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">jana</item>
+        <item quantity="other">siku %d zilizopita</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">Saa 1 iliyopita</item>
+        <item quantity="other">Saa %d zilizopita</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other">Dakika %d zilizopita</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">Sekunde 1 iliyopita</item>
+        <item quantity="other">Sekunde %d zilizopita</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">Saa 1</item>
+        <item quantity="other">Saa %d</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">Dakika 1</item>
+        <item quantity="other">Dakika %d</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">Sekunde 1</item>
+        <item quantity="other">Sekunde %d</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">kesho</item>
+        <item quantity="other">katika siku %d</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">kati ya saa 1</item>
+        <item quantity="other">kati ya saa %d</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">kati ya dakika  1</item>
+        <item quantity="other">katika dakika %d</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">kati ya sekunde 1</item>
+        <item quantity="other">kati ya sekunde %d</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">jana</item>
+        <item quantity="other">siku %d zilizopita</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">Saa 1 iliyopita</item>
+        <item quantity="other">Saa %d zilizopita</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">Dakika 1 iliyopita</item>
+        <item quantity="other">Dakika %d zilizopita</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">Sekunde 1 iliopita</item>
+        <item quantity="other">sekunde %d zilizopita</item>
+    </plurals>
+</resources>

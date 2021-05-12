@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#eee"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <gradient android:startColor="#0000" android:endColor="#e5e6e7" android:useLevel="false" android:angle="0" android:type="radial" android:gradientRadius="140dp" android:centerColor="#0000"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#666666" android:id="@+id/tv_date" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/base_offset" android:fontFamily="@font/gotham_medium" android:layout_marginStart="@dimen/base_offset" android:layout_marginEnd="@dimen/base_offset" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/TextMedium"/>
+            <TextView android:textColor="#999999" android:id="@+id/tv_select_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_offset" android:text="@string/hint_select_time_slots" android:fontFamily="@font/gotham_book" app:layout_constraintStart_toStartOf="@+id/tv_date" app:layout_constraintTop_toBottomOf="@+id/tv_date"/>
+            <TextView android:textColor="#666666" android:id="@+id/tv_visits_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/enlarged_offset" android:text="@string/label_on_site_visits" android:fontFamily="@font/gotham_medium" app:layout_constraintStart_toStartOf="@+id/tv_select_label" app:layout_constraintTop_toBottomOf="@+id/tv_select_label"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_slots" android:paddingBottom="96dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_offset" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/tv_visits_label"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <Button android:textStyle="bold" android:layout_gravity="bottom" android:id="@+id/btn_invite" android:layout_width="match_parent" android:layout_marginBottom="@dimen/enlarged_offset" android:text="@string/label_send_invite" android:fontFamily="@font/gotham" style="@style/Button.Register"/>
+</FrameLayout>

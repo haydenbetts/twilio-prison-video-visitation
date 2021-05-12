@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">imorgon</item>
+        <item quantity="other">om %d dagar</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">om 1 timme</item>
+        <item quantity="other">om %d timmar</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">om 1 minut</item>
+        <item quantity="other">om %d minuter</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">om 1 sekund</item>
+        <item quantity="other">om %d sek</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">igår</item>
+        <item quantity="other">%d dagar sedan</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">för 1 timme sedan</item>
+        <item quantity="other">för %d timmar sedan</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">för 1 minut sedan</item>
+        <item quantity="other">för %d minuter sedan</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">för 1 sek sedan</item>
+        <item quantity="other">för %d sekunder sedan</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 timme</item>
+        <item quantity="other">%d timmar</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 minut</item>
+        <item quantity="other">%d minuter</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 sekund</item>
+        <item quantity="other">%d sekunder</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">imorgon</item>
+        <item quantity="other">om %d dagar</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">om 1 timme</item>
+        <item quantity="other">om %d timmar</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">om 1 minut</item>
+        <item quantity="other">om %d minuter</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">om 1 sekund</item>
+        <item quantity="other">om %d sekunder</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">igår</item>
+        <item quantity="other">för %d dagar sedan</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">för 1 timme sedan</item>
+        <item quantity="other">för %d timmar sedan</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">för 1 minut sedan</item>
+        <item quantity="other">för %d minuter sedan</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">för 1 sekund sedan</item>
+        <item quantity="other">för %d sekunder sedan</item>
+    </plurals>
+    <plurals name="ua_selected_count">
+        <item quantity="one">%1$d valt</item>
+        <item quantity="other">%1$d valda</item>
+    </plurals>
+</resources>

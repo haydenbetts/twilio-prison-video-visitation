@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ImageButton android:id="@+id/backButton" android:background="@android:color/transparent" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="@dimen/base_offset" android:src="@drawable/ic_action_arrow_left" android:layout_marginStart="@dimen/base_offset"/>
+    <ProgressBar android:id="@+id/loader_indicator" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="@dimen/base_offset" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/base_offset" android:layout_alignParentEnd="true" android:indeterminateTint="@android:color/white" android:indeterminateTintMode="src_in"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="#fff" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/heading" android:textColor="#666666" android:id="@+id/tv_month" android:paddingLeft="26dp" android:paddingTop="@dimen/base_offset" android:paddingBottom="@dimen/enlarged_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/gotham_medium"/>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/base_offset" android:paddingRight="@dimen/base_offset" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="7">
+        <TextView android:textColor="#666666" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="S" android:layout_weight="1" android:fontFamily="@font/gotham_book"/>
+        <TextView android:textColor="#666666" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="M" android:layout_weight="1" android:fontFamily="@font/gotham_book"/>
+        <TextView android:textColor="#666666" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="T" android:layout_weight="1" android:fontFamily="@font/gotham_book"/>
+        <TextView android:textColor="#666666" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="W" android:layout_weight="1" android:fontFamily="@font/gotham_book"/>
+        <TextView android:textColor="#666666" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="T" android:layout_weight="1" android:fontFamily="@font/gotham_book"/>
+        <TextView android:textColor="#666666" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="F" android:layout_weight="1" android:fontFamily="@font/gotham_book"/>
+        <TextView android:textColor="#666666" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:text="S" android:layout_weight="1" android:fontFamily="@font/gotham_book"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+package com.braintreepayments.api.models;
+
+import android.text.TextUtils;
+import com.braintreepayments.api.Json;
+import org.json.JSONObject;
+
+public class BraintreeApiConfiguration {
+    private static final String ACCESS_TOKEN_KEY = "accessToken";
+    private static final String URL_KEY = "url";
+    private String mAccessToken;
+    private String mUrl;
+
+    static BraintreeApiConfiguration fromJson(JSONObject jSONObject) {
+        if (jSONObject == null) {
+            jSONObject = new JSONObject();
+        }
+        BraintreeApiConfiguration braintreeApiConfiguration = new BraintreeApiConfiguration();
+        braintreeApiConfiguration.mAccessToken = Json.optString(jSONObject, ACCESS_TOKEN_KEY, "");
+        braintreeApiConfiguration.mUrl = Json.optString(jSONObject, "url", "");
+        return braintreeApiConfiguration;
+    }
+
+    public String getAccessToken() {
+        return this.mAccessToken;
+    }
+
+    public String getUrl() {
+        return this.mUrl;
+    }
+
+    public boolean isEnabled() {
+        return !TextUtils.isEmpty(this.mAccessToken);
+    }
+}

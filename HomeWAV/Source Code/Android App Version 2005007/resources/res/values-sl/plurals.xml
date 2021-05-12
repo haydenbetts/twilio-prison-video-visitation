@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">jutri</item>
+        <item quantity="other">čez %d dni</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">čez 1 uro</item>
+        <item quantity="other">čez %d ur</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">čez 1 min</item>
+        <item quantity="other">čez %d minut</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">čez 1 sekundo</item>
+        <item quantity="other">čez toliko sekund: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">včeraj</item>
+        <item quantity="other">Pred %d dnevi</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">pred 1 uro</item>
+        <item quantity="other">Pred %d urami</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">pred 1 minuto</item>
+        <item quantity="other">Pred %d minutami</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">pred 1 sekundo</item>
+        <item quantity="other">Pred toliko sekundami: %d</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 ura</item>
+        <item quantity="other">%d h</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 minuta</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 sekunda</item>
+        <item quantity="other">%d s</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">jutri</item>
+        <item quantity="other">čez %d dni</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">čez 1 uro</item>
+        <item quantity="other">čez %d ur</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">čez 1 minuto</item>
+        <item quantity="other">Čez toliko minut: %d.</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">čez 1 sekundo</item>
+        <item quantity="other">Čez %d sekund</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">včeraj</item>
+        <item quantity="other">Pred %d dnevi</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">pred 1 uro</item>
+        <item quantity="other">Pred %d urami</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">pred 1 minuto</item>
+        <item quantity="other">Pred %d minutami</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">Pred 1 sekundo</item>
+        <item quantity="other">pred toliko sekundami: %d</item>
+    </plurals>
+</resources>

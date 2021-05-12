@@ -1,0 +1,62 @@
+package com.google.android.exoplayer2.source.hls;
+
+import com.google.android.exoplayer2.FormatHolder;
+import com.google.android.exoplayer2.decoder.DecoderInputBuffer;
+import com.google.android.exoplayer2.source.SampleStream;
+import java.io.IOException;
+
+final class HlsSampleStream implements SampleStream {
+    private int sampleQueueIndex = -1;
+    private final HlsSampleStreamWrapper sampleStreamWrapper;
+    private final int trackGroupIndex;
+
+    public HlsSampleStream(HlsSampleStreamWrapper hlsSampleStreamWrapper, int i) {
+        this.sampleStreamWrapper = hlsSampleStreamWrapper;
+        this.trackGroupIndex = i;
+    }
+
+    public void unbindSampleQueue() {
+        if (this.sampleQueueIndex != -1) {
+            this.sampleStreamWrapper.unbindSampleQueue(this.trackGroupIndex);
+            this.sampleQueueIndex = -1;
+        }
+    }
+
+    public boolean isReady() {
+        return ensureBoundSampleQueue() && this.sampleStreamWrapper.isReady(this.sampleQueueIndex);
+    }
+
+    public void maybeThrowError() throws IOException {
+        if (ensureBoundSampleQueue() || !this.sampleStreamWrapper.isMappingFinished()) {
+            this.sampleStreamWrapper.maybeThrowError();
+            return;
+        }
+        throw new SampleQueueMappingException(this.sampleStreamWrapper.getTrackGroups().get(this.trackGroupIndex).getFormat(0).sampleMimeType);
+    }
+
+    public int readData(FormatHolder formatHolder, DecoderInputBuffer decoderInputBuffer, boolean z) {
+        if (!ensureBoundSampleQueue()) {
+            return -3;
+        }
+        return this.sampleStreamWrapper.readData(this.sampleQueueIndex, formatHolder, decoderInputBuffer, z);
+    }
+
+    public int skipData(long j) {
+        if (!ensureBoundSampleQueue()) {
+            return 0;
+        }
+        return this.sampleStreamWrapper.skipData(this.sampleQueueIndex, j);
+    }
+
+    private boolean ensureBoundSampleQueue() {
+        if (this.sampleQueueIndex != -1) {
+            return true;
+        }
+        int bindSampleQueueToSampleStream = this.sampleStreamWrapper.bindSampleQueueToSampleStream(this.trackGroupIndex);
+        this.sampleQueueIndex = bindSampleQueueToSampleStream;
+        if (bindSampleQueueToSampleStream != -1) {
+            return true;
+        }
+        return false;
+    }
+}

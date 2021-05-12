@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <NotificationChannel description="@string/ua_default_channel_description" id="com.urbanairship.default" importance="3" name="@string/ua_default_channel_name"/>
+    <NotificationChannel description="@string/ua_service_channel_description" id="com.urbanairship.service" importance="4" name="@string/ua_service_channel_name"/>
+    <NotificationChannel description="@string/ua_news_channel_description" id="com.urbanairship.news" importance="3" name="@string/ua_news_channel_name"/>
+    <NotificationChannel description="@string/ua_urgent_channel_description" id="com.urbanairship.urgent" importance="4" name="@string/ua_urgent_channel_name"/>
+    <NotificationChannel description="@string/ua_low_priority_channel_description" id="com.urbanairship.low.priority" importance="2" name="@string/ua_low_priority_channel_name"/>
+    <NotificationChannel description="@string/ua_min_priority_channel_description" id="com.urbanairship.min.priority" importance="1" name="@string/ua_min_priority_channel_name"/>
+</resources>

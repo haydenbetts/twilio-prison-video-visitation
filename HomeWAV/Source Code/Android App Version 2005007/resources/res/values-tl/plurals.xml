@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="joda_time_android_abbrev_in_num_days">
+        <item quantity="one">bukas</item>
+        <item quantity="other">sa %d (na) araw</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_hours">
+        <item quantity="one">sa 1 oras</item>
+        <item quantity="other">sa %d (na) oras</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_minutes">
+        <item quantity="one">sa 1 min</item>
+        <item quantity="other">sa %d (na) minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_in_num_seconds">
+        <item quantity="one">sa 1 seg</item>
+        <item quantity="other">sa %d (na) segundo</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_days_ago">
+        <item quantity="one">kahapon</item>
+        <item quantity="other">%d (na) araw ang nakalipas</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_hours_ago">
+        <item quantity="one">1 oras ang nakalipas</item>
+        <item quantity="other">%d (na) oras ang nakalipas</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_minutes_ago">
+        <item quantity="one">1 minuto ang nakalipas</item>
+        <item quantity="other">%d (na) minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="joda_time_android_abbrev_num_seconds_ago">
+        <item quantity="one">1 segundo ang nakalipas</item>
+        <item quantity="other">%d (na) segundo ang nakalipas</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_hours">
+        <item quantity="one">1 oras</item>
+        <item quantity="other">%d (na) oras</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_minutes">
+        <item quantity="one">1 minuto</item>
+        <item quantity="other">%d (na) minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_duration_seconds">
+        <item quantity="one">1 segundo</item>
+        <item quantity="other">%d (na) segundo</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_days">
+        <item quantity="one">bukas</item>
+        <item quantity="other">sa %d (na) araw</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_hours">
+        <item quantity="one">sa 1 oras</item>
+        <item quantity="other">sa %d (na) oras</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_minutes">
+        <item quantity="one">sa 1 minuto</item>
+        <item quantity="other">sa %d (na) minuto</item>
+    </plurals>
+    <plurals name="joda_time_android_in_num_seconds">
+        <item quantity="one">sa 1 segundo</item>
+        <item quantity="other">sa %d (na) segundo</item>
+    </plurals>
+    <plurals name="joda_time_android_num_days_ago">
+        <item quantity="one">kahapon</item>
+        <item quantity="other">%d (na) araw ang nakalipas</item>
+    </plurals>
+    <plurals name="joda_time_android_num_hours_ago">
+        <item quantity="one">1 oras ang nakalipas</item>
+        <item quantity="other">%d (na) oras ang nakalipas</item>
+    </plurals>
+    <plurals name="joda_time_android_num_minutes_ago">
+        <item quantity="one">1 minuto ang nakalipas</item>
+        <item quantity="other">%d (na) minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="joda_time_android_num_seconds_ago">
+        <item quantity="one">1 segundo ang nakakalipas</item>
+        <item quantity="other">%d (na) segundo ang nakalipas</item>
+    </plurals>
+</resources>

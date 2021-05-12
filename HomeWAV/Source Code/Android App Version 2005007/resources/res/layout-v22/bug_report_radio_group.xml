@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="16dp">
+    <CheckBox android:id="@+id/cb_mic" android:text="@string/microphone_issue" style="@style/CheckBox.BugReport"/>
+    <CheckBox android:id="@+id/cb_speaker" android:text="@string/speaker_issue" style="@style/CheckBox.BugReport"/>
+    <CheckBox android:id="@+id/cb_connectivity" android:text="@string/connectivity_issue" style="@style/CheckBox.BugReport"/>
+    <CheckBox android:id="@+id/cb_video" android:text="@string/video_issue" style="@style/CheckBox.BugReport"/>
+</LinearLayout>
